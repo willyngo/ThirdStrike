@@ -1,6 +1,7 @@
 import random
-from src.Strike import Strike
 
-myStrike = Strike("Willy", "For being lazy")
+n = {
+    "hello": [1, 2, 3]
+}
 
-print(myStrike.get_reason())
+print("e" in n)
