@@ -13,8 +13,9 @@ my_dict = {
 
 
 def get_memberID_from_name(name):
+    name_lower = name.lower()
     for memid in my_dict:
-        if name in my_dict[memid]:
+        if name_lower in my_dict[memid]:
             return memid
 
 
