@@ -29,55 +29,75 @@ async def strike(ctx, membername):
     response = f"{member.mention} is a bitch."
     await ctx.send(response)
 
+
 @bot.command(name='getgrid')
 async def getgrid(ctx, membername='-1', element='-1'):
-    """
-    Usage: !getgrid <username> <element>
-    """
     logCheck(ctx, "getgrid")
 
+    #If user omits second arg, function takes user's name as second arg  
     if membername in element_list:
         element = membername
         membername = ctx.author.name.lower()
 
+    #Make sure element exists
     checkElement(element)
-    member = getMember(membername)
 
+    #Find member
+    member = getMember(membername)
     if member:
+
+        #Grid images are named in this specific format {name}_{element}.png
         playername = member.name
         filename = f"src/grids/{playername}_{element}.png"
 
+        #Check if the image exists
         if not os.path.exists(filename):
-            raise commands.BadArgument(f"Could not find {playername}'s {element} grid")
+            raise commands.BadArgument(f"could not find {playername}'s {element} grid")
 
+        #Send to discord
         await ctx.send(file=discord.File(filename))
+
 
 @bot.command(name='setgrid')
 async def setgrid(ctx, membername='-1', element='-1'):
-    """
-    Usage: !setgrid <element> [attachment]
-    """
     logCheck(ctx, "setgrid")
 
+    #If user omits second arg, function takes user's name as second arg
     if membername in element_list:
         element = membername
         membername = ctx.author.name.lower()
 
+    #Does not allow setting up another user's grid
     if membername != '-1' and membername != ctx.author.name:
-        raise commands.BadArgument("You can't set someone else's grid!")
+        raise commands.BadArgument("you can't set someone else's grid")
 
+    #Make sure correct element
     checkElement(element)
 
+    #Must accept attachment
     if ctx.message.attachments:
+        #TODO: check if attachment is an image
+
+        #Make sure that naming format of images are {username}_{element}.png
         membername = ctx.author.name.lower()
         filename = f"{membername}_{element}.png"
         print(f"File name to be saved: {filename}")
 
+        #send image to discord
         await ctx.message.attachments[0].save(f"src/grids/{filename}")
         await ctx.send(f"Done! I've set {membername}'s {element} grid.")
     else:
-        raise commands.BadArgument("Could not find attachments")
+        raise commands.BadArgument("could not find attachments")
 
+# Error handling
+@bot.event
+async def on_command_error(ctx, error):
+    if isinstance(error, commands.BadArgument):
+        errorMsg = f"Oops! Something went wrong: {error}."
+        print(f"[Exception commands.BadArgument]: {error}.")
+        await ctx.send(errorMsg)
+
+# Private functions
 def getMember(membername):
     print("-Subcommand: getMember")
     nameToCheck = membername.lower()
@@ -88,11 +108,11 @@ def getMember(membername):
             print(f"-Member returned: {member.name}")
             return member
 
-    raise commands.BadArgument(f"Could not find member: {nameToCheck}")
+    raise commands.BadArgument(f"could not find member: {nameToCheck}")
 
 def checkElement(element):
     if element.lower() not in element_list:
-        raise commands.BadArgument("Wrong element")
+        raise commands.BadArgument(f"no such element: {element}")
 
 def logCheck(ctx, funcName):
     print("**********")
@@ -103,13 +123,6 @@ def logCheck(ctx, funcName):
 
 def handleError(errorMsg):
     print(errorMsg)
-
-@bot.event
-async def on_command_error(ctx, error):
-    if isinstance(error, commands.BadArgument):
-        errorMsg = f"[Oops! Something went wrong]: {error}"
-        print(f"[Exception commands.BadArgument]: {error}")
-        await ctx.send(errorMsg)
 
 # @bot.command(name='why')
 # async def why(ctx, membername=None):
