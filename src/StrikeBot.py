@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from discord.ext import commands
 import os
 from os.path import exists
-import random
+from gbf_roll_simulator import gbf_rolls
 
 
 intents = discord.Intents.default()
@@ -17,10 +17,12 @@ bot = commands.Bot(command_prefix="!", intents = intents)
 
 # User defined variables
 element_list = ['fire', 'water', 'earth', 'wind', 'light', 'dark']
+gacha = gbf_rolls()
 
 @bot.event
 async def on_ready():
     print(f"{bot.user.name} has connected to Discord!")
+    
 
 @bot.command(name='strike')
 async def strike(ctx, membername):
@@ -88,6 +90,25 @@ async def setgrid(ctx, membername='-1', element='-1'):
         await ctx.send(f"Done! I've set {membername}'s {element} grid.")
     else:
         raise commands.BadArgument("could not find attachments")
+
+@bot.command(name='pull')
+async def pull(ctx):
+    #pull = gacha.pull()
+    pull = gacha.pull()
+    response = f'You got {pull}!'
+    print(f"{ctx.author.name} pulled {pull}")
+    await ctx.send(response)
+
+@bot.command(name='tenpull')
+async def tenpull(ctx):
+    pulls = gacha.ten_pull()
+    response = "Nice! You got: \n"
+    print(f'{ctx.author.name} got these: ')
+    for pull in pulls:
+        response += f'{pull}\n'
+        print(f'{pull}')
+
+    await ctx.send(response)
 
 # Error handling
 @bot.event
