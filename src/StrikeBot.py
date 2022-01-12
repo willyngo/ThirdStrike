@@ -1,10 +1,13 @@
 import discord
+import os
+import json
+from discord.errors import NotFound
+from discord.ext.commands.errors import UserNotFound
 from dotenv import load_dotenv
 from discord.ext import commands
-import os
 from os.path import exists
 from gbf_roll_simulator import gbf_rolls
-
+from StrikeDB import StrikeDB
 
 intents = discord.Intents.default()
 intents.members = True
@@ -18,6 +21,7 @@ bot = commands.Bot(command_prefix="!", intents = intents)
 # User defined variables
 element_list = ['fire', 'water', 'earth', 'wind', 'light', 'dark']
 gacha = gbf_rolls()
+user_db = StrikeDB()
 
 @bot.event
 async def on_ready():
@@ -25,10 +29,11 @@ async def on_ready():
     
 
 @bot.command(name='strike')
-async def strike(ctx, membername):
+async def strike(ctx, membername, *, reason="no reason apparantly"):
     logCheck(ctx, "strike")
     member = getMember(membername)
-    response = f"{member.mention} is a bitch."
+    user_db.addStrike(member)
+    response = f"{member.mention} is a bitch for the following reason: {reason}."
     await ctx.send(response)
 
 
@@ -93,30 +98,108 @@ async def setgrid(ctx, membername='-1', element='-1'):
 
 @bot.command(name='pull')
 async def pull(ctx):
-    #pull = gacha.pull()
-    pull = gacha.pull()
-    response = f'You got {pull}!'
-    print(f"{ctx.author.name} pulled {pull}")
+    logCheck(ctx, "Pull")
+    
+    #check crystals before pulling
+    amount = user_db.getCrystal(ctx.author)
+    if amount > 300:
+        user_db.removeCrystal(ctx.author, 300)
+        pull = gacha.pull()
+        response = f'You got {pull}!'
+        print(f"{ctx.author.name} pulled {pull}. \n")
+        response += f"You have {user_db.getCrystal(ctx.author)} crystals remaining."
+    else:
+        response = "Sorry! Looks like your a little low on crystals."
+
     await ctx.send(response)
 
 @bot.command(name='tenpull')
 async def tenpull(ctx):
-    pulls = gacha.ten_pull()
-    response = "Nice! You got: \n"
-    print(f'{ctx.author.name} got these: ')
-    for pull in pulls:
-        response += f'{pull}\n'
-        print(f'{pull}')
+    logCheck(ctx, "TenPull")
+
+    amount = user_db.getCrystal(ctx.author)
+    if amount > 3000:
+        user_db.removeCrystal(ctx.author, 3000)
+        pulls = gacha.ten_pull()
+        response = "Nice! You got: \n"
+        print(f'{ctx.author.name} got these: ')
+        for pull in pulls:
+            response += f'{pull}\n'
+            print(f'{pull}')
+        response += f"You have {user_db.getCrystal(ctx.author)} crystals remaining."
+    else:
+        response = "Sorry! Looks like your a little low on crystals there. You need at least 3000 for a 10-pull."
+
+    await ctx.send(response)
+
+@bot.command(name='daily')
+async def daily(ctx):
+    logCheck(ctx, "daily")
+    #user_id = ctx.author.id
+    author = ctx.author
+    response = ""
+
+    if not user_db.getDaily(author):
+        response = "You've already redeemed your login bonus. Greedy Bitch."
+    else:
+        response = f"Thanks for logging in! You've earned 3000 crystals. You now have {user_db.getCrystal(author)} crystals."
+    
+    await ctx.send(response)
+
+@bot.command(name='resetdaily')
+async def resetDaily(ctx):
+    logCheck(ctx, "resetDaily")
+    user_db.resetDaily()
+    response = "Daily bonuses have been reset!"
+    print(response)
+    await ctx.send(response)
+
+@bot.command(name='addcrystal')
+@commands.has_role('Mods')
+async def addCrystal(ctx, amount):
+    logCheck(ctx, "addCrystal")
+    author = ctx.author
+
+    user_db.addCrystal(author, amount)
+    response = f"Nice! We've added your crystals, you now have {user_db.getCrystal(author)}"
+    print(response)
+    await ctx.send(response)
+
+@bot.command(name='crystal')
+async def getCrystal(ctx):
+    logCheck(ctx, "getCrystal")
+
+    id = ctx.author
+    amount = user_db.getCrystal(ctx.author)
+
+    response = f"Hi {ctx.author.display_name}! You currently have {amount} crystals."
+    await ctx.send(response)
+
+@bot.command(name='status')
+async def status(ctx):
+    logCheck(ctx, "status")
+    response = user_db.getUser(ctx.author)
+
+    if not response:
+        response = "Sorry, it seems like we couldn't find you and it looks like willyngo didn't make me auto add you if you weren't in the db already. What a lazy ass."
 
     await ctx.send(response)
 
 # Error handling
 @bot.event
 async def on_command_error(ctx, error):
+
     if isinstance(error, commands.BadArgument):
-        errorMsg = f"Oops! Something went wrong: {error}."
+        errorMsg = f"Oops! Something went wrong, {error}. Please refer to the !help {ctx.command}"
         print(f"[Exception commands.BadArgument]: {error}.")
-        await ctx.send(errorMsg)
+    if isinstance(error, commands.UserNotFound):
+        willy = getMember("willyngo")
+        errorMsg = f"Oops! Looks like we couldn't find the user. {willy.mention} should've made me add you to the db automatically but he's being a lazy bum right now."
+        print(f"[Exception commands.UserNotFound]: {error}")
+    else:
+        errorMsg = f"Something went very wrong and I have no idea what happened: {error}"
+    
+    await ctx.send(errorMsg)
 
 # Private functions
 def getMember(membername):
@@ -131,19 +214,23 @@ def getMember(membername):
 
     raise commands.BadArgument(f"could not find member: {nameToCheck}")
 
+
 def checkElement(element):
     if element.lower() not in element_list:
         raise commands.BadArgument(f"no such element: {element}")
 
-def logCheck(ctx, funcName):
+def logCheck(ctx, funcName, msg="None"):
     print("**********")
     print(f"Command: {funcName}")
     print(f"Author: {ctx.message.author}")
     print(f"Channel: {ctx.message.channel}")
     print(f"Message: {ctx.message.content}")
+    print(f'Custom message: {msg}')
 
-def handleError(errorMsg):
-    print(errorMsg)
+def updateDB(user):
+    with open("src/db/strike_users.json") as writeJSON:
+        db = json.load(writeJSON)
+        user_db = db
 
 # @bot.command(name='why')
 # async def why(ctx, membername=None):

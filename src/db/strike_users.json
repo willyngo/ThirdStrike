@@ -1,0 +1,23 @@
+[
+  {
+    "id": 109452980457082880,
+    "username": "willyngo",
+    "crystal": 5470,
+    "strikes": 5,
+    "daily": true
+  },
+  {
+    "id": 109825136563081216,
+    "username": "Merikato",
+    "crystal": 33000,
+    "strikes": 1,
+    "daily": true
+  },
+  {
+    "id": 110556725186170880,
+    "username": "Shadow",
+    "crystal": 30000,
+    "strikes": 1,
+    "daily": false
+  }
+]

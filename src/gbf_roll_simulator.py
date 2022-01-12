@@ -39,6 +39,8 @@ class gbf_rolls:
     def __init__(self):
         self.__setup_weapons()
         self.__setup_summons()
+        print("Successfully setup gacha db")
+
     
     def pull(self, weight=reg_pull_weight):
         pull_rarity = ['r', 'sr', 'ssr']
@@ -106,8 +108,3 @@ class gbf_rolls:
         for i in range(10):
             self.__pick_unit('r')
 
-
-gacha = gbf_rolls()
-pulls = gacha.ten_pull()
-for i  in pulls:
-    print(i)

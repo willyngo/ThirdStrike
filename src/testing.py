@@ -1,12 +1,10 @@
 import random
 import math
+from gbf_roll_simulator import gbf_rolls
+from StrikeDB import StrikeDB
 
-arr = [1,0,2,3,0,4,5,0]
-i = 0
-while i < len(arr):
-    if arr[i] == 0:
-        arr.pop()
-        arr.insert(i,0)
-        i+=2
-    else:
-        i+=1
+gacha = gbf_rolls()
+
+pulls = gacha.ten_pull()
+for i in pulls:
+    print(i)
