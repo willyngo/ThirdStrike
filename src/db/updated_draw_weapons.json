@@ -1,0 +1,4349 @@
+[
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Acid Bolt Shooter",
+    "element": "water",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Aerial Cane",
+    "element": "wind",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Aetherial Bow",
+    "element": "wind",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Aetherial Marine",
+    "element": "earth",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ain Soph",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Air Cannon",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "AK-4A",
+    "element": "earth",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Alabaster Zenith",
+    "element": "dark",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Almace",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ancient Bandages",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Anelace",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Antwerp",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Aquablade",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Aquan Killer",
+    "element": "water",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Aquarium Harp",
+    "element": "water",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Arachne",
+    "element": "dark",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Arjunan Bow",
+    "element": "fire",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Arondight",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Arsene",
+    "element": "earth",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Arson",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Arson Blaze",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Arson Link",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Arvess Demiclone",
+    "element": "water",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ascalon",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Assassin's Dagger",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Asura",
+    "element": "fire",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Athanasius",
+    "element": "earth",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Atlantis",
+    "element": "water",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Atrocious Blood",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Aura Whip",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Auriculata Bow",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Aurora Bow",
+    "element": "wind",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Aves",
+    "element": "water",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Azoth",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Bab-el-Mandeb",
+    "element": "dark",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Balisarde",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Barbell",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Battle Axe",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Belfast",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Bell of Happy Endings",
+    "element": "wind",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Bella Aeterna",
+    "element": "earth",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Benedia",
+    "element": "fire",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Bird Eye",
+    "element": "fire",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Bitternote Sun",
+    "element": "light",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Black Dragon's Maw",
+    "element": "fire",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Black Ouroboros",
+    "element": "dark",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Blast Knuckles",
+    "element": "light",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Bloody Piercer",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Bloody Scar",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Blossom Axe",
+    "element": "water",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Blue Crest",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Blue Sphere",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Blushing Blossom Pin",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Blutgang",
+    "element": "dark",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Bon Joie",
+    "element": "wind",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Bonsai Blade",
+    "element": "fire",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Boogie Plates",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Bottle o' Blossoms",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Bovinius",
+    "element": "wind",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Brahma Gauntlet",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Brand New Melody",
+    "element": "earth",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Bravery",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Brionac",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Brocken Lance",
+    "element": "dark",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Broken Bottle",
+    "element": "fire",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Bronze Bell",
+    "element": "dark",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Bubble Sketcher",
+    "element": "earth",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Bullova",
+    "element": "water",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "C'est la Vie",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Caladbolg",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Cane",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Canisius",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Capulet's Oath",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Carnwenhan",
+    "element": "earth",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Cerastes",
+    "element": "earth",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Certificus",
+    "element": "light",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Chain Knuckles",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Charming Broom",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Chopsticks",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Claidheamh Soluis",
+    "element": "light",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Cla\u00edomh Solais",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Claymore",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Cleaver",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Cletine",
+    "element": "light",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Cloud Tomahawk",
+    "element": "wind",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Coco & Mimi",
+    "element": "dark",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Cold Noodles",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Collbrande",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Colorful Crackerjack",
+    "element": "water",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Composite Bow",
+    "element": "fire",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Confection Cutter",
+    "element": "dark",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Conifer",
+    "element": "light",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Cords of Heaven Lyre",
+    "element": "wind",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Cotton Candy",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Couse",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Creepy Claws",
+    "element": "wind",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Crimson Finger",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Crimson Sapphire",
+    "element": "wind",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Crimson Talons",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Crocskin Glove",
+    "element": "light",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Crosswind",
+    "element": "wind",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Cruel Claw",
+    "element": "dark",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Crystal Bellflowers",
+    "element": "water",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Crystal Luin",
+    "element": "light",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Cube Staff",
+    "element": "wind",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Cup and Saucer",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Cursed Cane",
+    "element": "dark",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Cursed Flame Candelabra",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Custom Arquebus",
+    "element": "fire",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Cute Ribbon",
+    "element": "dark",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Cythara Anglica",
+    "element": "wind",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Daemon's Spine",
+    "element": "water",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Dainsleif",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Dark Knife",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Dark Sword",
+    "element": "dark",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Dayspring",
+    "element": "water",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Deathly Arson",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Deep Desire",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Deirdre's Claws",
+    "element": "wind",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Deirdre's Heart",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Deirdre's Symbol",
+    "element": "wind",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Delta Apex",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Delta Quartz",
+    "element": "fire",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Demitasse",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Derringer",
+    "element": "fire",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Desert Arms",
+    "element": "earth",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Destiny Knuckles",
+    "element": "wind",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Diamond Edge",
+    "element": "light",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Disparia",
+    "element": "dark",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Distant Requiem",
+    "element": "dark",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Disturbance Signum",
+    "element": "wind",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Divine Spear",
+    "element": "earth",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Dojigiri Yasutsuna",
+    "element": "wind",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Dolphin",
+    "element": "fire",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Dormius",
+    "element": "light",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Draco Claw",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Draco Horn",
+    "element": "water",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Dracula Harp",
+    "element": "dark",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Dragon Slayer",
+    "element": "wind",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Dragon Tail",
+    "element": "fire",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Draph Hammer",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Dreadflayer",
+    "element": "earth",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Durandal",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Earth Bow",
+    "element": "earth",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Earth Cutlass",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Earth Halberd",
+    "element": "earth",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Earth Zaghnal",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Eden",
+    "element": "light",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Eighth Point of the Flock",
+    "element": "wind",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Ember Blade",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Embrasque Demiclone",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Emerald Cane",
+    "element": "wind",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Emerald Dagger",
+    "element": "wind",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Enchanted Broomstick",
+    "element": "earth",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Enchanted Nail",
+    "element": "wind",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Eon",
+    "element": "light",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Epoxy Boogie Plates",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ethereal Lasher",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Euripides",
+    "element": "earth",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Eurytos Bow",
+    "element": "fire",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Evanescence",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Evil Wand",
+    "element": "dark",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Evyg Em Noytnetta",
+    "element": "wind",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Exitosus",
+    "element": "water",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Falchion",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Fallen Sword",
+    "element": "dark",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Far Away",
+    "element": "wind",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Feather Staff",
+    "element": "earth",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Feather Wand",
+    "element": "wind",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Feendrache Pennant",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Festive Frying Pan",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Fire Baselard",
+    "element": "fire",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Fire Glaive",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Fire Piece",
+    "element": "fire",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Fire Sword",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Fireball",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Firecracker",
+    "element": "fire",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Fish Tooth",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Fist of Destruction",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Flame Bolt",
+    "element": "fire",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Flame Bow",
+    "element": "fire",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Flame Halberd",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Flame Rapier",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Flamelance: Accendo",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Flare Glaive",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Floaty Sword",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Flower Crown",
+    "element": "wind",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Fluorithium Blade",
+    "element": "water",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Forbidden Inferno",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Forbidden Memories",
+    "element": "dark",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Forbidden Silence",
+    "element": "earth",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Forest Hermit Staff",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Fragarach",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Fremel Hammer",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Frostbite",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Froststar Staff",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Frying Pan",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Fudo-Kuniyuki",
+    "element": "dark",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Full Metal Recoil",
+    "element": "light",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Fusetto",
+    "element": "wind",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Fusion Mobius",
+    "element": "light",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Gae Derg",
+    "element": "earth",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Galactic Impact",
+    "element": "wind",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Galilei's Insight",
+    "element": "water",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Gallinarius",
+    "element": "earth",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Galvanic Lance",
+    "element": "wind",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Gambanteinn",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Gandiva",
+    "element": "earth",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Gandring",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Gargantua",
+    "element": "earth",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Gastraphetes",
+    "element": "earth",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Gauntlet",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Genius Squared",
+    "element": "dark",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Ghillie Fork",
+    "element": "wind",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Giant Fork",
+    "element": "earth",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Gigante Bisector",
+    "element": "light",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Gigante Slicer",
+    "element": "dark",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Glass Bow",
+    "element": "fire",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Gold-Plated Fremel",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Golden Dragon",
+    "element": "wind",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Golden Mop",
+    "element": "earth",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Golden Woofer",
+    "element": "light",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Goldie",
+    "element": "dark",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Gorgeous Spin Blade",
+    "element": "wind",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Gothic Cutlery",
+    "element": "light",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Gottfried",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Gram",
+    "element": "dark",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Grand Edge",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Great Hammer",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Great Spear",
+    "element": "earth",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Greatsword Andalius",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Grenade",
+    "element": "fire",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Gridarvor",
+    "element": "dark",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Grynoth Demiclone",
+    "element": "fire",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Halberd",
+    "element": "wind",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Hand Axe",
+    "element": "fire",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Hand Pistol",
+    "element": "wind",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Handy Arquebus",
+    "element": "earth",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Hard Knuckle",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Harvester",
+    "element": "water",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Hauteclaire",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Heart of a Songbird",
+    "element": "earth",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Heated Pata",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Heaven's Cloud",
+    "element": "wind",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Heavy Blast Knuckles",
+    "element": "light",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Heavy Metal Comb",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Heavy-Duty Pumpkins",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Heiliges Schwert",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Heroic Bow",
+    "element": "light",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Hoarfrost Blade Persius",
+    "element": "water",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Holiday Wand",
+    "element": "earth",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Holy Axe",
+    "element": "wind",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Holy Cane",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Holy Glove",
+    "element": "light",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Holy Harp",
+    "element": "light",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Holy Kris",
+    "element": "light",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Hope-Filled Knuckles",
+    "element": "light",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Horrible Voulge",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Horseman's Hammer",
+    "element": "light",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Hrotti",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Humming Bard",
+    "element": "light",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Hunter's Rifle",
+    "element": "dark",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Ice Bough Staff",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Ice Bow",
+    "element": "water",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ice Crystal Staff",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Ice Sword",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Icey Nail",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ichigo Hitofuri",
+    "element": "earth",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Ilhoon",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Illusion Scepter",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Impact Knuckles",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Impassioned Rose",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Imperial Bow",
+    "element": "fire",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Impossible Diagram",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Innocent Doll",
+    "element": "earth",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Into the Sunset",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Iridescent Bow",
+    "element": "light",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Iron Guard",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Iron Pliers",
+    "element": "fire",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ishtar",
+    "element": "dark",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ivory Ark",
+    "element": "light",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ixaba",
+    "element": "fire",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Izayoi",
+    "element": "water",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Jack-O'-Brand",
+    "element": "fire",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Jamadhar",
+    "element": "wind",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Jezail",
+    "element": "dark",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Jolly Starcracker",
+    "element": "light",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Joyeuse",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Kaiser Knuckles",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Kalaurops",
+    "element": "dark",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Katzbalger",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Kerak",
+    "element": "fire",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Kerykeion",
+    "element": "wind",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Kilij",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Knight of Ice",
+    "element": "water",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Knight's Beach Banner",
+    "element": "earth",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Kotetsu",
+    "element": "fire",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Kris",
+    "element": "earth",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "L'Arc Qui ne Faut",
+    "element": "earth",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Lance d'Espoir",
+    "element": "light",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Lancet",
+    "element": "light",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Langdebeve",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Leaf Dagger",
+    "element": "wind",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Levin Shooter",
+    "element": "light",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Lifeguard Glove",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Light Buckler",
+    "element": "wind",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Light Staff",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Lightbringer",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Lilac Comb",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Little Master Key",
+    "element": "dark",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Little Scarlet",
+    "element": "fire",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Liuyedao",
+    "element": "water",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Lohengrin",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Longbow",
+    "element": "water",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Love Eternal",
+    "element": "wind",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Lovely Ace",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Luin",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Lumiel Banner",
+    "element": "light",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Lupercalia",
+    "element": "wind",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Lyre of Lamia",
+    "element": "fire",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Lyst",
+    "element": "dark",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Lyst Sin",
+    "element": "dark",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Macho Hunter Weapon",
+    "element": "earth",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Macuahuitl",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Magma Gauntlet",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Maiden's Dragonblade",
+    "element": "light",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Mailbreaker",
+    "element": "water",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Mandau",
+    "element": "wind",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Massive Axe",
+    "element": "fire",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Master Key",
+    "element": "dark",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Matchlock",
+    "element": "fire",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Mauler",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Medusiana Staff",
+    "element": "earth",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Melodic Sphere",
+    "element": "water",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Merciless Chastening",
+    "element": "wind",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Merveilleux",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Metal Destroyer",
+    "element": "fire",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Metal Glove",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Metal Hand",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Meteora",
+    "element": "water",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Mettle",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Midnight Radiance",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Midnight Rose",
+    "element": "water",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Mikazuki",
+    "element": "dark",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Miming's Baselard",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Mirage Knife",
+    "element": "water",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Mirror-Blade Shard",
+    "element": "earth",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Misanga Bracelet",
+    "element": "light",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Mistilteinn",
+    "element": "dark",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Mobius Strip",
+    "element": "fire",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Montague's Oath",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Morning Star",
+    "element": "light",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Moss Tree Staff",
+    "element": "wind",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Murgleis",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Mythril Baghnakhs",
+    "element": "wind",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Mythril Bolt",
+    "element": "fire",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Mythril Bow",
+    "element": "fire",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Mythril Katana",
+    "element": "water",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Mythril Knuckles",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Mythril Tonfa",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Nagelring",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Narval",
+    "element": "water",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Nature's Mystery",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Naughty Witch",
+    "element": "earth",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Neckchopper",
+    "element": "dark",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Neko Punch",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Neko Punch Pro",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Nereus Staff",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Nibelung Glas",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Night Air Bell",
+    "element": "dark",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Night Bell",
+    "element": "dark",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Night Horn",
+    "element": "dark",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Nightmare Mobilizer",
+    "element": "earth",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ninth Head of the Cartload",
+    "element": "water",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Nodachi",
+    "element": "fire",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ocean Harp",
+    "element": "water",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Ocean Rod",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Official's Jitte",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Old Sword",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Only for a Cutie",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ophelia",
+    "element": "water",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Orleans Standard",
+    "element": "wind",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ouroboros",
+    "element": "earth",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ouroboros Prime",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ouroboros Treat",
+    "element": "dark",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Oven Mitts",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Pain and Suffering",
+    "element": "dark",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Pantagruel",
+    "element": "light",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Paper Fan",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Parashu",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Parazonium",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Partisan",
+    "element": "earth",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Pastoral Staff",
+    "element": "earth",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Petronel",
+    "element": "wind",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Phantom Gauntlet",
+    "element": "dark",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Phantom Thief Blade",
+    "element": "water",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Pilum",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Pinkie Needle",
+    "element": "light",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Pirate Sword",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Plasma Slicer",
+    "element": "water",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Porculius",
+    "element": "light",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Power Bow",
+    "element": "earth",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Practice Sword",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Predator Claw",
+    "element": "dark",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Premium Sword",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Prideful Sword",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Prism Tear",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Puppet Knife",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Purifying Thunderbolt",
+    "element": "fire",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Purity Blade",
+    "element": "dark",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Quarrel",
+    "element": "water",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Radiant Rinne",
+    "element": "light",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Raging Halberd",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Raijodo",
+    "element": "wind",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Raikiri",
+    "element": "water",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Railgun",
+    "element": "light",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Rainbow Bow",
+    "element": "water",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Ram-Dao",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ramulus",
+    "element": "dark",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Ranger Pistol",
+    "element": "earth",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ravening Harpoon",
+    "element": "water",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Red Sphere",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Red-Hot Noodles",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Returner Staff",
+    "element": "wind",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Reunion",
+    "element": "wind",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Reveiller",
+    "element": "water",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Ripple Harp",
+    "element": "earth",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Ripple Rapier",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Rock Cutter",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Rock Hammer",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Rodentius",
+    "element": "dark",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Rope Knuckles",
+    "element": "fire",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Roseate Aetherial Bow",
+    "element": "fire",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Rosen Maiden",
+    "element": "dark",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Royal Rapier",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Rubia Rod",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ruler of Fate",
+    "element": "light",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ruling Pen",
+    "element": "dark",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Sacred Codex",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Sacred Lance",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Sacred Standard",
+    "element": "light",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Saintly Crystal",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Samurai Sword",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Sandcastle Song-Lume",
+    "element": "earth",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Sarnga",
+    "element": "fire",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Sauria",
+    "element": "dark",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Sawed-Off Shotgun",
+    "element": "fire",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Scalpel",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Scarlet Crest Axe",
+    "element": "fire",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Scarlet Oath",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Scarlet Vane",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Schwarz Lightning",
+    "element": "dark",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Sealed Claustrum",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Seaside Memory",
+    "element": "wind",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Seilenos",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Self Defender",
+    "element": "water",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Serpentine Longspear",
+    "element": "earth",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Shade Knife",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Shadow Bow",
+    "element": "dark",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Shadow Scepter",
+    "element": "dark",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Shadow Viperlance",
+    "element": "dark",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Shareeravadi",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Sharp Letter",
+    "element": "light",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Shekhinah Bow",
+    "element": "wind",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Shoka",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Shrike's Beak",
+    "element": "earth",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Shrimp Lure",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Shura Vhara",
+    "element": "light",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Signal Flare",
+    "element": "fire",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Silphium",
+    "element": "dark",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Silver Fan",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Silver Pole",
+    "element": "water",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Silver Rings",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Silver Shotel",
+    "element": "dark",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Sinensis",
+    "element": "wind",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Skeletal Eclipse",
+    "element": "dark",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Skirt Chaser",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Sky Ace",
+    "element": "wind",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Sky Tomahawk",
+    "element": "wind",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Skyrend Spear",
+    "element": "dark",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Slarnd",
+    "element": "water",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Slingshot",
+    "element": "light",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Snack Pole",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Snaphance",
+    "element": "wind",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Snowbane",
+    "element": "water",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Snowman Rod",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Snowy Mobius Strip",
+    "element": "light",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Soldier Axe",
+    "element": "fire",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Songsmith's Harp",
+    "element": "wind",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Soothing Torch",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Soul Eater",
+    "element": "dark",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Soul Edge",
+    "element": "light",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Soulbond Dirk",
+    "element": "fire",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Spear of Assail",
+    "element": "wind",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Spin Blade",
+    "element": "wind",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Spirit Seeker",
+    "element": "light",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Split End",
+    "element": "wind",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Spritewood Staff",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Spymur's Clause",
+    "element": "earth",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Staff of Refusal",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Staff of the Star Seeker",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Standard Albion Bolt",
+    "element": "wind",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Starblaze Rings",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Stardust Holly Rod",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Stiletto",
+    "element": "earth",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Stone Pole",
+    "element": "earth",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Straight Anchor",
+    "element": "water",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Stratomizer",
+    "element": "earth",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Stravaria",
+    "element": "wind",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Student Notebook",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Sudarshana",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Summer Beach Sphere",
+    "element": "water",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Summer Night Peak",
+    "element": "dark",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Summer Souteyrand",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Sunflower Wand",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Sunshade Parasol",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Sunspot Spear",
+    "element": "dark",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Sunya",
+    "element": "dark",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Sutera's Bow",
+    "element": "wind",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Swallowtail",
+    "element": "light",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Switchblade",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Sword Breaker",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Sword of Lisblanc",
+    "element": "wind",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Sword of Sorcery",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Sword on the Cob",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Symbol of Justice",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Tabar",
+    "element": "light",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Tabarzin",
+    "element": "light",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Tahar Masala",
+    "element": "dark",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Taiaha",
+    "element": "earth",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Taisai Spirit Bow",
+    "element": "water",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Taming Sari",
+    "element": "light",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Tanzanite Blade",
+    "element": "fire",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Tanzanite Sword Mikoh",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Tattoo Fist",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Teiwaz",
+    "element": "water",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Tenth Crest of the Clutch",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Thalassinus",
+    "element": "wind",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "The Cross",
+    "element": "dark",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Thorny Rose",
+    "element": "earth",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Thunder Dirk Jove",
+    "element": "light",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Thunder Kalinga Axe",
+    "element": "light",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Thunder Rapier",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Thyrsus",
+    "element": "earth",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Tiamat Bolt Prime",
+    "element": "wind",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Tidal Wraps",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Tiger Fang",
+    "element": "light",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Tigrisius",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Tilvung",
+    "element": "dark",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Time-Tested Iron",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Titanium Harpoon",
+    "element": "water",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Tlepilli",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Tonfa",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Torch",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Tree Wand",
+    "element": "earth",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Tr\u00ed Bandia",
+    "element": "wind",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Trick Serpent",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Trident",
+    "element": "water",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Tropical Fairy",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Tropical Punch",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Tropical Winter",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "True Teardrop",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "True Tiger's Bane",
+    "element": "wind",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Tughril",
+    "element": "earth",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Turpin Spear",
+    "element": "wind",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Twelfth Vertex of the Passel",
+    "element": "fire",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Twin Helix",
+    "element": "light",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Twisted Dagger",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Two-by-Four",
+    "element": "fire",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Two-Handed Sword",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Tyrian Tiger Blade",
+    "element": "earth",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ukonvasara",
+    "element": "light",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Unheil",
+    "element": "dark",
+    "weapon-type": "harp"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Unsigned Blade",
+    "element": "wind",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Ursula Glove",
+    "element": "dark",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Vagabond",
+    "element": "dark",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Vajranda",
+    "element": "light",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Vampire's Nail",
+    "element": "dark",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Vassago",
+    "element": "dark",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Venustas",
+    "element": "earth",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Vintage Flat Iron",
+    "element": "fire",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Vlisragna",
+    "element": "water",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Vortex of the Void",
+    "element": "wind",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Voulge",
+    "element": "dark",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Wales' Finest",
+    "element": "light",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Walthari",
+    "element": "light",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Wandering Blade",
+    "element": "fire",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "War Bow",
+    "element": "earth",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "War Fan of Secret Teachings",
+    "element": "fire",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Water Balloons",
+    "element": "water",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Water Kukri",
+    "element": "water",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Water Rod",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Way Flyer",
+    "element": "fire",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Wheellock Axe",
+    "element": "earth",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Whirlwind Wraps",
+    "element": "wind",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "White Flag",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "White Hawk",
+    "element": "water",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "White Sword",
+    "element": "water",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "White Talons",
+    "element": "wind",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Whitefrost Glacier",
+    "element": "water",
+    "weapon-type": "spear"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Wind Axe",
+    "element": "wind",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Wind Rod",
+    "element": "wind",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Wind-Rhyme Staff",
+    "element": "wind",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Windflash",
+    "element": "wind",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Wing of the Pure",
+    "element": "wind",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Winter Wonderbow",
+    "element": "light",
+    "weapon-type": "gun"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Witch's Broom",
+    "element": "fire",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Wooden Dagger",
+    "element": "earth",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Woodland Prayer",
+    "element": "light",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "World Ender",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Wrapped Bow",
+    "element": "wind",
+    "weapon-type": "bow"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Wurtzite Scythe",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Wyrm Claw",
+    "element": "dark",
+    "weapon-type": "dagger"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Wyrmtiger Claw",
+    "element": "earth",
+    "weapon-type": "melee"
+  },
+  {
+    "type": "weapon",
+    "rarity": "r",
+    "name": "Xiphos",
+    "element": "earth",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Yagrush",
+    "element": "water",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Yahata's Naginata",
+    "element": "earth",
+    "weapon-type": "axe"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Yyrkoon",
+    "element": "wind",
+    "weapon-type": "sabre"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Zanbato",
+    "element": "wind",
+    "weapon-type": "katana"
+  },
+  {
+    "type": "weapon",
+    "rarity": "sr",
+    "name": "Zhonpeli",
+    "element": "earth",
+    "weapon-type": "staff"
+  },
+  {
+    "type": "weapon",
+    "rarity": "ssr",
+    "name": "Zodiaco Vitae",
+    "element": "water",
+    "weapon-type": "dagger"
+  }
+]

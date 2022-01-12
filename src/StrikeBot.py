@@ -30,15 +30,38 @@ async def on_ready():
 
 @bot.command(name='strike')
 async def strike(ctx, membername, *, reason="no reason apparantly"):
+    """
+    Give someone a strike
+    """
     logCheck(ctx, "strike")
     member = getMember(membername)
-    user_db.addStrike(member)
+    user_db.addStrike(member, reason)
     response = f"{member.mention} is a bitch for the following reason: {reason}."
     await ctx.send(response)
 
+@bot.command(name='why')
+async def strike(ctx, membername=None):
+    """
+    Get list of strikes
+    """
+    logCheck("why")
+    if membername is None:
+        membername = ctx.author.name
+    
+    member = getMember(membername)
+    strikelist = user_db.getStrikes(member)
+
+    response = f"Here are {membername}'s list of strikes:\n"
+    for i in strikelist:
+        response += f"{i}\n"
+    
+    await ctx.send(response)
 
 @bot.command(name='getgrid')
 async def getgrid(ctx, membername='-1', element='-1'):
+    """
+    Get someone's grid. Specify username and element.
+    """
     logCheck(ctx, "getgrid")
 
     #If user omits second arg, function takes user's name as second arg  
@@ -67,6 +90,9 @@ async def getgrid(ctx, membername='-1', element='-1'):
 
 @bot.command(name='setgrid')
 async def setgrid(ctx, membername='-1', element='-1'):
+    """
+    Sets attached image to grid element.
+    """
     logCheck(ctx, "setgrid")
 
     #If user omits second arg, function takes user's name as second arg
@@ -96,44 +122,55 @@ async def setgrid(ctx, membername='-1', element='-1'):
     else:
         raise commands.BadArgument("could not find attachments")
 
+
 @bot.command(name='pull')
 async def pull(ctx):
+    """
+    Pull a single time using 300 crystals
+    """
     logCheck(ctx, "Pull")
-    
+    pull = []
     #check crystals before pulling
     amount = user_db.getCrystal(ctx.author)
     if amount > 300:
         user_db.removeCrystal(ctx.author, 300)
-        pull = gacha.pull()
-        response = f'You got {pull}!'
-        print(f"{ctx.author.name} pulled {pull}. \n")
-        response += f"You have {user_db.getCrystal(ctx.author)} crystals remaining."
+        pull.append(gacha.pull())
+        embed = makePullsEmbed(ctx, pull)
     else:
-        response = "Sorry! Looks like your a little low on crystals."
+        embed = discord.Embed(title="Sorry!", 
+        description=f"Looks like you're running a little low there. You need at least 300 crystals for a single pull but you've only got {amount}.")
 
-    await ctx.send(response)
+    await ctx.send(embed=embed)
 
 @bot.command(name='tenpull')
 async def tenpull(ctx):
+    """
+    Pull 10 times using 3000 crystals
+    """
     logCheck(ctx, "TenPull")
 
     amount = user_db.getCrystal(ctx.author)
     if amount > 3000:
         user_db.removeCrystal(ctx.author, 3000)
         pulls = gacha.ten_pull()
-        response = "Nice! You got: \n"
-        print(f'{ctx.author.name} got these: ')
-        for pull in pulls:
-            response += f'{pull}\n'
-            print(f'{pull}')
-        response += f"You have {user_db.getCrystal(ctx.author)} crystals remaining."
+        embed = makePullsEmbed(ctx, pulls)
+        # response = "Nice! You got: \n"
+        # print(f'{ctx.author.name} got these: ')
+        # for pull in pulls:
+        #     response += f'{pull}\n'
+        #     print(f'{pull}')
+        # response += f"You have {user_db.getCrystal(ctx.author)} crystals remaining."
     else:
-        response = "Sorry! Looks like your a little low on crystals there. You need at least 3000 for a 10-pull."
+        embed = discord.Embed(title="Sorry!", 
+        description=f"Looks like you're running a little low there. You need at least 3000 crystals for a 10-pull but you've only got {amount}.")
 
-    await ctx.send(response)
+    await ctx.send(embed=embed)
 
 @bot.command(name='daily')
 async def daily(ctx):
+    """
+    Get daily bonus!
+    """
     logCheck(ctx, "daily")
     #user_id = ctx.author.id
     author = ctx.author
@@ -148,6 +185,9 @@ async def daily(ctx):
 
 @bot.command(name='resetdaily')
 async def resetDaily(ctx):
+    """
+    reset daily bonus [test]
+    """
     logCheck(ctx, "resetDaily")
     user_db.resetDaily()
     response = "Daily bonuses have been reset!"
@@ -157,16 +197,22 @@ async def resetDaily(ctx):
 @bot.command(name='addcrystal')
 @commands.has_role('Mods')
 async def addCrystal(ctx, amount):
+    """
+    Adds crystal to user [test]
+    """
     logCheck(ctx, "addCrystal")
     author = ctx.author
 
     user_db.addCrystal(author, amount)
-    response = f"Nice! We've added your crystals, you now have {user_db.getCrystal(author)}"
+    response = f"Nice! We've added your crystals, you now have {user_db.getCrystal(author)} crystals."
     print(response)
     await ctx.send(response)
 
 @bot.command(name='crystal')
 async def getCrystal(ctx):
+    """
+    Show current amount of crystals
+    """
     logCheck(ctx, "getCrystal")
 
     id = ctx.author
@@ -177,6 +223,9 @@ async def getCrystal(ctx):
 
 @bot.command(name='status')
 async def status(ctx):
+    """
+    Check user status [test] 
+    """
     logCheck(ctx, "status")
     response = user_db.getUser(ctx.author)
 
@@ -197,11 +246,42 @@ async def on_command_error(ctx, error):
         errorMsg = f"Oops! Looks like we couldn't find the user. {willy.mention} should've made me add you to the db automatically but he's being a lazy bum right now."
         print(f"[Exception commands.UserNotFound]: {error}")
     else:
-        errorMsg = f"Something went very wrong and I have no idea what happened: {error}"
+        errorMsg = f"Oops! Something went wrong: {error}"
+        print(errorMsg)
     
     await ctx.send(errorMsg)
 
 # Private functions
+def makePullsEmbed(ctx, pulls):
+    pull_embed = discord.Embed(title=f"{ctx.author.display_name}'s pulls!",
+        description="Here's what you got:",
+        color=0xFF5733)
+    i = 1
+    for item in pulls:
+
+        #Add an empty field to correct embed formatting
+        if i % 2 == 0:
+            pull_embed.add_field(name='\u200b', value='\u200b')
+
+        rare = item['rarity']
+        style = ""
+        if rare == 'sr':
+            style = "yaml"
+        elif rare == "ssr":
+            style = "fix"
+
+        fieldvalue = f"```{style}\n{item['name']}\n```"
+        fieldname = f"{item['type']} | {item['rarity'].upper()}"
+        
+        pull_embed.add_field(name=fieldname, value=fieldvalue)
+        i+=1
+        
+    pull_embed.add_field(name='\u200b', value='\u200b')
+    pull_embed.set_thumbnail(url=ctx.author.avatar_url)
+    pull_embed.set_footer(text=f"You have {user_db.getCrystal(ctx.author)} crystals remaining.")
+
+    return pull_embed
+
 def getMember(membername):
     print("-Subcommand: getMember")
     nameToCheck = membername.lower()

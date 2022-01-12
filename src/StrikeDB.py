@@ -35,6 +35,7 @@ class StrikeDB:
             "id": id,
             "username":username,
             "crystal": 30000,
+            "strike_list":[],
             "strikes":0,
             "daily":False
         }
@@ -89,17 +90,27 @@ class StrikeDB:
         if user:
             return user['crystal']
     
-    def addStrike(self, author):
+    def addStrike(self, author, reason):
         self.__log("addStrike", "Going in")
         user = self.getUser(author)
 
         if user:
             user['strikes'] += 1
+            user['strike_list'].append(reason)
             self.__log("addStrike", f"Added strike to {author.name}")
             self.__updateDB()
         else:
             raise commands.UserNotFound(author.name)
     
+    def getStrikes(self, author):
+        self.__log("getLastStrike", "going in")
+        user = self.getUser(author)
+
+        if user:
+            return user['strike_list']
+        else:
+            raise commands.UserNotFound(author.name)
+
     def removeStrike(self, author):
         self.__log("removeStrike", "Going in")
         user = self.getUser(author)
@@ -108,7 +119,7 @@ class StrikeDB:
             self.__log("addStrike", f"removed strike to {author.name}")
             self.__updateDB()
         else:
-            raise commands.UserNotFound(author.name)   
+            raise commands.UserNotFound(author.name)
 
     
     def __getDB(self):

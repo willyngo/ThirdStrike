@@ -1,0 +1,587 @@
+[
+  {
+    "type": "summon",
+    "name": "Angelie",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Belle",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Bonethorn",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Cave Bat",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Crawler",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Crusher",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Dragonflair",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Ghost Light",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Hornbird",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Imp",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Jawfish",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Lumacie Griffin",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Mandrake",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Minotaur",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Purgatorian",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Rivacuda",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Rodfly",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Skeleton",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Sleepyhead",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Slime",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Swordshark",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Twilight Devil",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Venom Lancer",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Walking Torch",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Angelie Cascade",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Aquamarine Carbuncle",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Clay Golem",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Doomworm",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Elmenhilde Windsprite",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Elusious Windwyrm",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Garnet Carbuncle",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Golem",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Griffin",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Hellhound",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Hydra",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Myconid",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Onyx Carbuncle",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Opal Carbuncle",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Pixie",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Ruination Gargoyle",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Stone Golem",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Vrazarek Firewyrm",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Wilinus Icewyrm",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Wyvern",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Zircon Carbuncle",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Adramelech",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Agni",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Anat, for Love and War",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Ankusha",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Anubis",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Aphrodite",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Apollo",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Artemis",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Athena (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Baal (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Bonito",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Ca Ong",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Cerberus, Hellhound Trifecta",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Charybdis",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Cybele",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Dark Angel Olivia",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Demonbream",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Dogu",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Elil",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Ewiyar (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Freyr",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Galleon",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Garuda",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Garula, Shining Hawk",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Gilgamesh",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Gorilla",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Grani",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Hades",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Hamsa",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Hector",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Heimdallr",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Lich (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Macula Marius (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Magus, Triad of Wisdom",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Mammoth",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Marduk, Battlefield Reaper",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Medusa (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Morrigna (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Nacht",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Neptune",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Nezha (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Nyarlathotep",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Oceanus",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Odin",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Owlcat",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Poseidon, the Tide Father",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Princess Long Ji",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Prometheus",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Quetzalcoatl",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Red Hare",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Rose Queen",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Satan",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Satyr (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Setekh",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Sethlans",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Siren",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Snow White",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Surtr",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Sylph, Flutterspirit of Purity",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Tezcatlipoca",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Thor",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Titan",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Tsukuyomi",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Twin Elements",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Typhon",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Varuna",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Vortex Dragon",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Wilnas",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Zaoshen",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Zephyrus",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Zeus",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Zirnitra",
+    "rarity": "ssr"
+  }
+]
