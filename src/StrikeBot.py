@@ -26,7 +26,7 @@ user_db = StrikeDB()
 @bot.event
 async def on_ready():
     print(f"{bot.user.name} has connected to Discord!")
-    
+
 
 @bot.command(name='strike')
 async def strike(ctx, membername, *, reason="no reason apparantly"):
@@ -44,7 +44,7 @@ async def strike(ctx, membername=None):
     """
     Get list of strikes
     """
-    logCheck("why")
+    logCheck(ctx, "why")
     if membername is None:
         membername = ctx.author.name
     

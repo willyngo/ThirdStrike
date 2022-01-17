@@ -59,6 +59,7 @@ class StrikeDB:
         self.__log("resetDaily", "Going in")
         for user in self.db:
             user['daily'] = False
+        self.__updateDB()
 
 
 

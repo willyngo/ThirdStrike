@@ -2,19 +2,21 @@
   {
     "id": 109452980457082880,
     "username": "willyngo",
-    "crystal": 60270,
-    "strikes": 8,
+    "crystal": 30270,
+    "strikes": 10,
     "strike_list": [
       "for being too modest",
       "for being sad",
-      "stfu"
+      "stfu",
+      "for being dumb",
+      "for having no willy"
     ],
     "daily": true
   },
   {
     "id": 109825136563081216,
     "username": "Merikato",
-    "crystal": 33000,
+    "crystal": 26999,
     "strikes": 2,
     "strike_list": [
       "for shitting on yakuza"
@@ -25,20 +27,69 @@
     "id": 110556725186170880,
     "username": "Shadow",
     "crystal": 30000,
-    "strikes": 1,
-    "strike_list": [],
+    "strikes": 2,
+    "strike_list": [
+      "for being a bitch"
+    ],
     "daily": false
   },
   {
     "id": 108991033517289472,
     "username": "shift",
-    "crystal": 30000,
+    "crystal": 27000,
     "strike_list": [
       "for playing clash royale",
       "for playing clash royale x2",
-      "for playing clash royale x3"
+      "for playing clash royale x3",
+      "don't dox me wtf"
     ],
-    "strikes": 3,
+    "strikes": 4,
     "daily": false
+  },
+  {
+    "id": 109824757918134272,
+    "username": "nasjuice",
+    "crystal": 18000,
+    "strike_list": [
+      "for not getting mhrise"
+    ],
+    "strikes": 1,
+    "daily": false
+  },
+  {
+    "id": 84127397128962048,
+    "username": "tickle",
+    "crystal": 27000,
+    "strike_list": [],
+    "strikes": 0,
+    "daily": false
+  },
+  {
+    "id": 160169455870148608,
+    "username": "char",
+    "crystal": 27000,
+    "strike_list": [],
+    "strikes": 0,
+    "daily": false
+  },
+  {
+    "id": 779068728397791262,
+    "username": "StrikeBot",
+    "crystal": 30000,
+    "strike_list": [
+      "give merikato better pulls"
+    ],
+    "strikes": 1,
+    "daily": false
+  },
+  {
+    "id": 326910748288876544,
+    "username": "moomie",
+    "crystal": 30000,
+    "strike_list": [
+      "for being a good friend"
+    ],
+    "strikes": 1,
+    "daily": true
   }
 ]
