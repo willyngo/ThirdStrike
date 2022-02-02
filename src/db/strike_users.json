@@ -11,7 +11,7 @@
       "for being dumb",
       "for having no willy"
     ],
-    "daily": true
+    "daily": false
   },
   {
     "id": 109825136563081216,
@@ -21,7 +21,7 @@
     "strike_list": [
       "for shitting on yakuza"
     ],
-    "daily": true
+    "daily": false
   },
   {
     "id": 110556725186170880,
@@ -90,6 +90,6 @@
       "for being a good friend"
     ],
     "strikes": 1,
-    "daily": true
+    "daily": false
   }
 ]

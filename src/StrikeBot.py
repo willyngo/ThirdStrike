@@ -1,8 +1,11 @@
+import itertools
 import discord
 import os
 import json
+from datetime import date, datetime, timezone
 from discord.errors import NotFound
 from discord.ext.commands.errors import UserNotFound
+from discord.ext import commands, tasks
 from dotenv import load_dotenv
 from discord.ext import commands
 from os.path import exists
@@ -11,6 +14,7 @@ from StrikeDB import StrikeDB
 
 intents = discord.Intents.default()
 intents.members = True
+intents.presences = True
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -22,10 +26,31 @@ bot = commands.Bot(command_prefix="!", intents = intents)
 element_list = ['fire', 'water', 'earth', 'wind', 'light', 'dark']
 gacha = gbf_rolls()
 user_db = StrikeDB()
+status_list = ["Status 1", "Status 2", "Status 3"]
 
 @bot.event
 async def on_ready():
+    check_game_ban.start()
     print(f"{bot.user.name} has connected to Discord!")
+
+@tasks.loop(seconds=300)
+async def check_game_ban():
+    print("**************Checking for gamers playing league...")
+    memberlist = bot.get_all_members()
+    found = False
+    for member in  memberlist:
+        if member.activity:
+            if member.activity.name.lower() == "league of legends":
+                print(f"Found gamer {member.name} playing...")
+                found = True
+                minutes_elapsed = datetime.utcnow() - member.activity.start
+                if (minutes_elapsed.seconds/60) > 30:
+                    response = f"Hey! You've been playing {member.activity.name} for more than 30 minutes now! Get that ass banned!"
+                    await member.send(response)
+                    await member.ban(delete_message_days=0, reason=f"playing {member.activity.name}")
+                    print(f"Successfully banned gamer {member.name}") 
+    if not found:
+        print("No gamers found... for now.")
 
 
 @bot.command(name='strike')
@@ -234,6 +259,8 @@ async def status(ctx):
 
     await ctx.send(response)
 
+
+
 # Error handling
 @bot.event
 async def on_command_error(ctx, error):
@@ -251,7 +278,7 @@ async def on_command_error(ctx, error):
     
     await ctx.send(errorMsg)
 
-# Private functions
+############ Private functions
 def makePullsEmbed(ctx, pulls):
     pull_embed = discord.Embed(title=f"{ctx.author.display_name}'s pulls!",
         description="Here's what you got:",
@@ -312,71 +339,5 @@ def updateDB(user):
         db = json.load(writeJSON)
         user_db = db
 
-# @bot.command(name='why')
-# async def why(ctx, membername=None):
-#     if not membername:
-#         membername = ctx.author.name
-
-#     memberid = get_memberID_from_name(membername)
-#     print(f"command 'why': id returned from {membername} is {memberid}")
-#     if memberid:
-#         response = ""
-#         if not strike_list._data[memberid]:
-#             response = f"Looks like {membername}'s got no strikes on their list. What a good lad!"
-#         else:
-#             reason = strike_list.get_last_strike(memberid)
-#             response = f"Reason for {membername}'s last strike was: `{reason}`"
-#         await ctx.send(response)
-#     else:
-#         raise commands.BadArgument
-
-
-# @bot.command(name='remove')
-# async def remove(ctx, membername):
-#     memberid = get_memberID_from_name(membername)
-#     print(f"command 'remove': id returned from {membername} is {memberid}")
-#     if memberid:
-#         response = ""
-#         if not strike_list._data[memberid]:
-#             response = f"Looks like {membername}'s got no strikes on their list. What a good lad!"
-#         else:
-#             removed = strike_list.remove_last_strike(memberid)
-#             response = f"Done! {membername}'s last strike which was `{removed}` has been removed!"
-#         await ctx.send(response)
-#     else:
-#         raise commands.BadArgument
-
-
-# @bot.command(name='showall')
-# async def showall(ctx):
-#     response = "```\n"
-#     slist = strike_list.get_all_strikes()
-#     print("got list")
-#     for memid in slist:
-#         print("in list")
-#         num = len(slist[memid])
-#         print(num)
-#         print(memid)
-#         name = str(bot.get_user(memid))
-#         print(name)
-#         print("got name")
-#         response += f"{name} \t\t: {num}\n"
-
-#     response += "```"
-#     await ctx.send(response)
-
-
-
-
-# @strike.error
-# async def strike_error(ctx, error):
-#     if isinstance(error, commands.BadArgument):
-#         some_responses = [
-#             "Hey, how about you type their name correctly eh?",
-#             "Can you type correctly? How about you make my life easier and just @ the guy.",
-#             "Can you not make a typo in their name? I can't work with this."
-#         ]
-#         response = random.choice(some_responses)
-#         await ctx.send(response)
 
 bot.run(TOKEN)
