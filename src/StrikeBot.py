@@ -28,10 +28,12 @@ gacha = gbf_rolls()
 user_db = StrikeDB()
 status_list = ["Status 1", "Status 2", "Status 3"]
 
+
 @bot.event
 async def on_ready():
     check_game_ban.start()
     print(f"{bot.user.name} has connected to Discord!")
+
 
 @tasks.loop(seconds=300)
 async def check_game_ban():
@@ -40,7 +42,7 @@ async def check_game_ban():
     found = False
     for member in  memberlist:
         if member.activity:
-            if member.activity.name.lower() == "league of legends":
+            if member.activity.name is not None and member.activity.name.lower() == "league of legends":
                 print(f"Found gamer {member.name} playing...")
                 found = True
                 minutes_elapsed = datetime.utcnow() - member.activity.start
@@ -64,6 +66,11 @@ async def strike(ctx, membername, *, reason="no reason apparantly"):
     response = f"{member.mention} is a bitch for the following reason: {reason}."
     await ctx.send(response)
 
+@bot.command(name='sammiortheotherone')
+async def sammiortheotherone(ctx):
+    response = "The other one."
+    await ctx.send(response)
+
 @bot.command(name='why')
 async def strike(ctx, membername=None):
     """
@@ -81,6 +88,7 @@ async def strike(ctx, membername=None):
         response += f"{i}\n"
     
     await ctx.send(response)
+
 
 @bot.command(name='getgrid')
 async def getgrid(ctx, membername='-1', element='-1'):
@@ -164,8 +172,8 @@ async def pull(ctx):
     else:
         embed = discord.Embed(title="Sorry!", 
         description=f"Looks like you're running a little low there. You need at least 300 crystals for a single pull but you've only got {amount}.")
-
     await ctx.send(embed=embed)
+
 
 @bot.command(name='tenpull')
 async def tenpull(ctx):
@@ -188,8 +196,8 @@ async def tenpull(ctx):
     else:
         embed = discord.Embed(title="Sorry!", 
         description=f"Looks like you're running a little low there. You need at least 3000 crystals for a 10-pull but you've only got {amount}.")
-
     await ctx.send(embed=embed)
+
 
 @bot.command(name='daily')
 async def daily(ctx):
@@ -205,8 +213,8 @@ async def daily(ctx):
         response = "You've already redeemed your login bonus. Greedy Bitch."
     else:
         response = f"Thanks for logging in! You've earned 3000 crystals. You now have {user_db.getCrystal(author)} crystals."
-    
     await ctx.send(response)
+
 
 @bot.command(name='resetdaily')
 async def resetDaily(ctx):
@@ -218,6 +226,7 @@ async def resetDaily(ctx):
     response = "Daily bonuses have been reset!"
     print(response)
     await ctx.send(response)
+
 
 @bot.command(name='addcrystal')
 @commands.has_role('Mods')
@@ -233,6 +242,7 @@ async def addCrystal(ctx, amount):
     print(response)
     await ctx.send(response)
 
+
 @bot.command(name='crystal')
 async def getCrystal(ctx):
     """
@@ -245,6 +255,7 @@ async def getCrystal(ctx):
 
     response = f"Hi {ctx.author.display_name}! You currently have {amount} crystals."
     await ctx.send(response)
+
 
 @bot.command(name='status')
 async def status(ctx):
@@ -260,8 +271,9 @@ async def status(ctx):
     await ctx.send(response)
 
 
-
 # Error handling
+
+
 @bot.event
 async def on_command_error(ctx, error):
 
@@ -275,10 +287,12 @@ async def on_command_error(ctx, error):
     else:
         errorMsg = f"Oops! Something went wrong: {error}"
         print(errorMsg)
-    
     await ctx.send(errorMsg)
 
+
 ############ Private functions
+
+
 def makePullsEmbed(ctx, pulls):
     pull_embed = discord.Embed(title=f"{ctx.author.display_name}'s pulls!",
         description="Here's what you got:",
@@ -306,8 +320,8 @@ def makePullsEmbed(ctx, pulls):
     pull_embed.add_field(name='\u200b', value='\u200b')
     pull_embed.set_thumbnail(url=ctx.author.avatar_url)
     pull_embed.set_footer(text=f"You have {user_db.getCrystal(ctx.author)} crystals remaining.")
-
     return pull_embed
+
 
 def getMember(membername):
     print("-Subcommand: getMember")
@@ -318,13 +332,13 @@ def getMember(membername):
         if nameToCheck == member.display_name.lower() or nameToCheck == member.name.lower():
             print(f"-Member returned: {member.name}")
             return member
-
     raise commands.BadArgument(f"could not find member: {nameToCheck}")
 
 
 def checkElement(element):
     if element.lower() not in element_list:
         raise commands.BadArgument(f"no such element: {element}")
+
 
 def logCheck(ctx, funcName, msg="None"):
     print("**********")
@@ -333,6 +347,7 @@ def logCheck(ctx, funcName, msg="None"):
     print(f"Channel: {ctx.message.channel}")
     print(f"Message: {ctx.message.content}")
     print(f'Custom message: {msg}')
+
 
 def updateDB(user):
     with open("src/db/strike_users.json") as writeJSON:
