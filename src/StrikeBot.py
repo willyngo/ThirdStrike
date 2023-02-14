@@ -66,11 +66,6 @@ async def strike(ctx, membername, *, reason="no reason apparantly"):
     response = f"{member.mention} is a bitch for the following reason: {reason}."
     await ctx.send(response)
 
-@bot.command(name='sammiortheotherone')
-async def sammiortheotherone(ctx):
-    response = "The other one."
-    await ctx.send(response)
-
 @bot.command(name='why')
 async def strike(ctx, membername=None):
     """
