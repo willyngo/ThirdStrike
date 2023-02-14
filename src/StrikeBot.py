@@ -11,6 +11,7 @@ from discord.ext import commands
 from os.path import exists
 from gbf_roll_simulator import gbf_rolls
 from StrikeDB import StrikeDB
+from MusicPlayer import music_cog
 
 intents = discord.Intents.default()
 intents.members = True
@@ -21,6 +22,7 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 
 bot = commands.Bot(command_prefix="!", intents = intents)
+bot.add_cog(music_cog(bot))
 
 # User defined variables
 element_list = ['fire', 'water', 'earth', 'wind', 'light', 'dark']

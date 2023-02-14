@@ -11,3 +11,5 @@ numpy==1.22.0
 python-dotenv==0.15.0
 soupsieve==2.3.1
 yarl==1.5.1
+youtube-dl=2021.12.17
+yt-dlp 2023.1.6
