@@ -31,7 +31,7 @@ status_list = ["Status 1", "Status 2", "Status 3"]
 
 @bot.event
 async def on_ready():
-    check_game_ban.start()
+    # check_game_ban.start()
     print(f"{bot.user.name} has connected to Discord!")
 
 
@@ -307,9 +307,9 @@ def makePullsEmbed(ctx, pulls):
         rare = item['rarity']
         style = ""
         if rare == 'sr':
-            style = "yaml"
-        elif rare == "ssr":
             style = "fix"
+        elif rare == "ssr":
+            style = "elm"
 
         fieldvalue = f"```{style}\n{item['name']}\n```"
         fieldname = f"{item['type']} | {item['rarity'].upper()}"

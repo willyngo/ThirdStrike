@@ -2,16 +2,17 @@
   {
     "id": 109452980457082880,
     "username": "willyngo",
-    "crystal": 27270,
-    "strikes": 11,
+    "crystal": 144270,
+    "strikes": 12,
     "strike_list": [
       "for being sad",
       "stfu",
       "for being dumb",
       "for having no willy",
-      "for the following reason for  the for"
+      "for the following reason for  the for",
+      "what the fuck"
     ],
-    "daily": false
+    "daily": true
   },
   {
     "id": 109825136563081216,
@@ -89,6 +90,16 @@
     "crystal": 30000,
     "strike_list": [
       "for being a good friend"
+    ],
+    "strikes": 1,
+    "daily": false
+  },
+  {
+    "id": 259049357146456074,
+    "username": "Taki",
+    "crystal": 30000,
+    "strike_list": [
+      "fucked up news"
     ],
     "strikes": 1,
     "daily": false

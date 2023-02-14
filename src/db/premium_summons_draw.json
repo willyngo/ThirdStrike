@@ -231,11 +231,6 @@
   },
   {
     "type": "summon",
-    "name": "Agni",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
     "name": "Anat, for Love and War",
     "rarity": "ssr"
   },
@@ -256,22 +251,7 @@
   },
   {
     "type": "summon",
-    "name": "Apollo",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
     "name": "Artemis",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
-    "name": "Athena (Summon)",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
-    "name": "Baal (Summon)",
     "rarity": "ssr"
   },
   {
@@ -296,16 +276,6 @@
   },
   {
     "type": "summon",
-    "name": "Cybele",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
-    "name": "Dark Angel Olivia",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
     "name": "Demonbream",
     "rarity": "ssr"
   },
@@ -326,17 +296,12 @@
   },
   {
     "type": "summon",
-    "name": "Freyr",
+    "name": "Freyr (Summon)",
     "rarity": "ssr"
   },
   {
     "type": "summon",
-    "name": "Galleon",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
-    "name": "Garuda",
+    "name": "Galleon (Summon)",
     "rarity": "ssr"
   },
   {
@@ -356,16 +321,6 @@
   },
   {
     "type": "summon",
-    "name": "Grani",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
-    "name": "Hades",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
     "name": "Hamsa",
     "rarity": "ssr"
   },
@@ -381,12 +336,12 @@
   },
   {
     "type": "summon",
-    "name": "Lich (Summon)",
+    "name": "Hekate",
     "rarity": "ssr"
   },
   {
     "type": "summon",
-    "name": "Macula Marius (Summon)",
+    "name": "Lu Woh (Summon)",
     "rarity": "ssr"
   },
   {
@@ -406,42 +361,12 @@
   },
   {
     "type": "summon",
-    "name": "Medusa (Summon)",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
-    "name": "Morrigna (Summon)",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
     "name": "Nacht",
     "rarity": "ssr"
   },
   {
     "type": "summon",
-    "name": "Neptune",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
-    "name": "Nezha (Summon)",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
     "name": "Nyarlathotep",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
-    "name": "Oceanus",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
-    "name": "Odin",
     "rarity": "ssr"
   },
   {
@@ -461,16 +386,6 @@
   },
   {
     "type": "summon",
-    "name": "Prometheus",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
-    "name": "Quetzalcoatl",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
     "name": "Red Hare",
     "rarity": "ssr"
   },
@@ -481,27 +396,12 @@
   },
   {
     "type": "summon",
-    "name": "Satan",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
-    "name": "Satyr (Summon)",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
     "name": "Setekh",
     "rarity": "ssr"
   },
   {
     "type": "summon",
     "name": "Sethlans",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
-    "name": "Siren",
     "rarity": "ssr"
   },
   {
@@ -531,17 +431,7 @@
   },
   {
     "type": "summon",
-    "name": "Titan",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
     "name": "Tsukuyomi",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
-    "name": "Twin Elements",
     "rarity": "ssr"
   },
   {
@@ -551,22 +441,132 @@
   },
   {
     "type": "summon",
-    "name": "Varuna",
+    "name": "Wamdus (Summon)",
     "rarity": "ssr"
   },
   {
     "type": "summon",
-    "name": "Vortex Dragon",
-    "rarity": "ssr"
-  },
-  {
-    "type": "summon",
-    "name": "Wilnas",
+    "name": "Wilnas (Summon)",
     "rarity": "ssr"
   },
   {
     "type": "summon",
     "name": "Zaoshen",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Zirnitra",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Bahamut",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Beelzebub",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Belial",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Europa (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Gabriel (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Godsworn Alexiel",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Grand Order",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Grimnir (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Halluel and Malluel (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Kaguya",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Lucifer",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Metatron",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Michael (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Raphael",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Sariel",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Shiva (Summon)",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Tsuchinoko",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Uriel",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Yatima",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Agni",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Varuna",
+    "rarity": "ssr"
+  },
+  {
+    "type": "summon",
+    "name": "Titan",
     "rarity": "ssr"
   },
   {
@@ -581,7 +581,7 @@
   },
   {
     "type": "summon",
-    "name": "Zirnitra",
+    "name": "Hades",
     "rarity": "ssr"
   }
 ]

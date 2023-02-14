@@ -1,122 +1,122 @@
 [
-  [
-    "summon",
-    "r",
-    "Angelie"
-  ],
-  [
-    "summon",
-    "r",
-    "Belle"
-  ],
-  [
-    "summon",
-    "r",
-    "Bonethorn"
-  ],
-  [
-    "summon",
-    "r",
-    "Cave Bat"
-  ],
-  [
-    "summon",
-    "r",
-    "Crawler"
-  ],
-  [
-    "summon",
-    "r",
-    "Crusher"
-  ],
-  [
-    "summon",
-    "r",
-    "Dragonflair"
-  ],
-  [
-    "summon",
-    "r",
-    "Ghost Light"
-  ],
-  [
-    "summon",
-    "r",
-    "Hornbird"
-  ],
-  [
-    "summon",
-    "r",
-    "Imp"
-  ],
-  [
-    "summon",
-    "r",
-    "Jawfish"
-  ],
-  [
-    "summon",
-    "r",
-    "Lumacie Griffin"
-  ],
-  [
-    "summon",
-    "r",
-    "Mandrake"
-  ],
-  [
-    "summon",
-    "r",
-    "Minotaur"
-  ],
-  [
-    "summon",
-    "r",
-    "Purgatorian"
-  ],
-  [
-    "summon",
-    "r",
-    "Rivacuda"
-  ],
-  [
-    "summon",
-    "r",
-    "Rodfly"
-  ],
-  [
-    "summon",
-    "r",
-    "Skeleton"
-  ],
-  [
-    "summon",
-    "r",
-    "Sleepyhead"
-  ],
-  [
-    "summon",
-    "r",
-    "Slime"
-  ],
-  [
-    "summon",
-    "r",
-    "Swordshark"
-  ],
-  [
-    "summon",
-    "r",
-    "Twilight Devil"
-  ],
-  [
-    "summon",
-    "r",
-    "Venom Lancer"
-  ],
-  [
-    "summon",
-    "r",
-    "Walking Torch"
-  ]
+  {
+    "type": "summon",
+    "name": "Angelie",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Belle",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Bonethorn",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Cave Bat",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Crawler",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Crusher",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Dragonflair",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Ghost Light",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Hornbird",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Imp",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Jawfish",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Lumacie Griffin",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Mandrake",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Minotaur",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Purgatorian",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Rivacuda",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Rodfly",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Skeleton",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Sleepyhead",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Slime",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Swordshark",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Twilight Devil",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Venom Lancer",
+    "rarity": "r"
+  },
+  {
+    "type": "summon",
+    "name": "Walking Torch",
+    "rarity": "r"
+  }
 ]

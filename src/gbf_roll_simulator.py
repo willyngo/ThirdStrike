@@ -38,7 +38,7 @@ class gbf_rolls:
 
     def __init__(self):
         # self.__setup_weapons()
-        self.__setup_new_weapons()
+        self.__setup_weapons()
         self.__setup_summons()
         print("Successfully setup gacha db")
 
@@ -59,7 +59,7 @@ class gbf_rolls:
         return pulls
 
     def __setup_summons(self):
-        with open ("src/db/updated_draw_summons.json") as summonfile:
+        with open ("src/db/premium_summons_draw.json") as summonfile:
             all_summons = json.load(summonfile)
             for summon in all_summons:
                 if summon['rarity'] == 'r':
@@ -71,27 +71,16 @@ class gbf_rolls:
 
 
     def __setup_weapons(self):
-        with open ("src/db/premium_draw_weapons.json") as weaponfile:
-            all_weapons = json.load(weaponfile)
-            for weapon in all_weapons:
-                if weapon[1] == "r":
-                    self.R_weapons.append(weapon)
-                elif weapon[1] == 'sr':
-                    self.SR_weapons.append(weapon)
-                elif weapon[1] == 'ssr':
-                    self.SSR_weapons.append(weapon)
-    
-    def __setup_new_weapons(self):
-        with open ("src/db/updated_draw_weapons.json") as weaponfile:
+        with open ("src/db/premium_weapons_draw.json") as weaponfile:
             all_weapons = json.load(weaponfile)
             for weapon in all_weapons:
                 if weapon['rarity'] == "r":
                     self.R_weapons.append(weapon)
-                elif weapon['rarity'] == "sr":
+                elif weapon['rarity'] == 'sr':
                     self.SR_weapons.append(weapon)
-                elif weapon['rarity'] == "ssr":
+                elif weapon['rarity'] == 'ssr':
                     self.SSR_weapons.append(weapon)
-        return self
+    
 
     def __pick_unit(self, rarity):
         if rarity == 'r':

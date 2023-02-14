@@ -1,107 +1,107 @@
 [
-  [
-    "summon",
-    "r",
-    "Angelie Cascade"
-  ],
-  [
-    "summon",
-    "r",
-    "Aquamarine Carbuncle"
-  ],
-  [
-    "summon",
-    "r",
-    "Clay Golem"
-  ],
-  [
-    "summon",
-    "r",
-    "Doomworm"
-  ],
-  [
-    "summon",
-    "r",
-    "Elmenhilde Windsprite"
-  ],
-  [
-    "summon",
-    "r",
-    "Elusious Windwyrm"
-  ],
-  [
-    "summon",
-    "r",
-    "Garnet Carbuncle"
-  ],
-  [
-    "summon",
-    "r",
-    "Golem"
-  ],
-  [
-    "summon",
-    "r",
-    "Griffin"
-  ],
-  [
-    "summon",
-    "r",
-    "Hellhound"
-  ],
-  [
-    "summon",
-    "r",
-    "Hydra"
-  ],
-  [
-    "summon",
-    "r",
-    "Myconid"
-  ],
-  [
-    "summon",
-    "r",
-    "Onyx Carbuncle"
-  ],
-  [
-    "summon",
-    "r",
-    "Opal Carbuncle"
-  ],
-  [
-    "summon",
-    "r",
-    "Pixie"
-  ],
-  [
-    "summon",
-    "r",
-    "Ruination Gargoyle"
-  ],
-  [
-    "summon",
-    "r",
-    "Stone Golem"
-  ],
-  [
-    "summon",
-    "r",
-    "Vrazarek Firewyrm"
-  ],
-  [
-    "summon",
-    "r",
-    "Wilinus Icewyrm"
-  ],
-  [
-    "summon",
-    "r",
-    "Wyvern"
-  ],
-  [
-    "summon",
-    "r",
-    "Zircon Carbuncle"
-  ]
+  {
+    "type": "summon",
+    "name": "Angelie Cascade",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Aquamarine Carbuncle",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Clay Golem",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Doomworm",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Elmenhilde Windsprite",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Elusious Windwyrm",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Garnet Carbuncle",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Golem",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Griffin",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Hellhound",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Hydra",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Myconid",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Onyx Carbuncle",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Opal Carbuncle",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Pixie",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Ruination Gargoyle",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Stone Golem",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Vrazarek Firewyrm",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Wilinus Icewyrm",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Wyvern",
+    "rarity": "sr"
+  },
+  {
+    "type": "summon",
+    "name": "Zircon Carbuncle",
+    "rarity": "sr"
+  }
 ]
